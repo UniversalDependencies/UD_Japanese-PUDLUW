@@ -37,31 +37,30 @@
     <feat name="Polarity" value="Neg" upos="AUX">117</feat><!-- ない, なかっ, ず, ん, なければならない, なく, なければならなかっ, なければならなく -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="26">
-    <dep name="acl">1094</dep>
-    <dep name="advcl">912</dep>
+  <deps unique="25">
+    <dep name="acl">1090</dep>
+    <dep name="advcl">917</dep>
     <dep name="advmod">334</dep>
     <dep name="amod">37</dep>
     <dep name="appos">49</dep>
     <dep name="aux">2701</dep>
-    <dep name="case">6486</dep>
+    <dep name="case">6489</dep>
     <dep name="cc">145</dep>
     <dep name="ccomp">68</dep>
     <dep name="compound">208</dep>
     <dep name="cop">109</dep>
     <dep name="csubj">8</dep>
-    <dep name="dep">14</dep>
+    <dep name="dep">11</dep>
     <dep name="det">209</dep>
     <dep name="discourse">1</dep>
-    <dep name="dislocated">32</dep>
     <dep name="fixed">6</dep>
     <dep name="mark">383</dep>
-    <dep name="nmod">2091</dep>
-    <dep name="nsubj">1493</dep>
+    <dep name="nmod">2092</dep>
+    <dep name="nsubj">1455</dep>
+    <dep name="nsubj:outer">70</dep>
     <dep name="nummod">60</dep>
-    <dep name="obj">843</dep>
-    <dep name="obl">1598</dep>
-    <dep name="parataxis">1</dep>
+    <dep name="obj">844</dep>
+    <dep name="obl">1596</dep>
     <dep name="punct">3028</dep>
     <dep name="root">1000</dep>
   </deps>
