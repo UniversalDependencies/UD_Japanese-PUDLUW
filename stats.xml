@@ -22,12 +22,12 @@
     <tag name="CCONJ">145</tag><!-- 然し, 又, 及び, 又は, そして, 更に, 一方, 其れから, 其れでも, 或いは -->
     <tag name="DET">209</tag><!-- 其の, 此の, 或る, 何の, あらゆる, 彼の -->
     <tag name="INTJ">1</tag><!-- おい -->
-    <tag name="NOUN">4697</tag><!-- 事, 為, 物, 多く, 後, 間, 人々, 時, 様, 他 -->
+    <tag name="NOUN">4695</tag><!-- 事, 為, 物, 多く, 後, 間, 人々, 時, 様, 他 -->
     <tag name="NUM">449</tag><!-- 1つ, 10月, 2つ, 一つ, 4月, 1月, 何度, 6月, 幾つ, 11月 -->
     <tag name="PART">70</tag><!-- か, まで, たり, ほど, だけ, い, ね, ばかり -->
     <tag name="PRON">431</tag><!-- 彼, 其れ, 彼女, 私, 此れ, 彼等, 此れ等, 私達, 其処, 誰 -->
     <tag name="PROPN">999</tag><!-- 中国, 米国, 英国, フランス, ロシア, ギリシャ, アルバニア, スペイン, アメリカ, イギリス -->
-    <tag name="PUNCT">3028</tag><!-- 、, 。, 「, 」, （, ）, 『, 』, ？, ( -->
+    <tag name="PUNCT">3030</tag><!-- 、, 。, 「, 」, （, ）, 『, 』, ？, ( -->
     <tag name="SCONJ">313</tag><!-- て, が, の, と, ために, ば, ながら, から, する, で -->
     <tag name="SYM">4</tag><!-- -, –, から, ・・・ -->
     <tag name="VERB">2269</tag><!-- 有る, 成る, する, 言う, 持つ, 見る, 述べる, 知る, 受ける, 考える -->
@@ -39,29 +39,29 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="25">
     <dep name="acl">1090</dep>
-    <dep name="advcl">917</dep>
-    <dep name="advmod">334</dep>
-    <dep name="amod">37</dep>
-    <dep name="appos">49</dep>
-    <dep name="aux">2701</dep>
-    <dep name="case">6489</dep>
+    <dep name="advcl">895</dep>
+    <dep name="advmod">335</dep>
+    <dep name="amod">38</dep>
+    <dep name="aux">2702</dep>
+    <dep name="case">6499</dep>
     <dep name="cc">145</dep>
     <dep name="ccomp">68</dep>
-    <dep name="compound">208</dep>
+    <dep name="compound">223</dep>
     <dep name="cop">109</dep>
     <dep name="csubj">8</dep>
-    <dep name="dep">11</dep>
+    <dep name="dep">3</dep>
     <dep name="det">209</dep>
     <dep name="discourse">1</dep>
     <dep name="fixed">6</dep>
+    <dep name="iobj">2</dep>
     <dep name="mark">383</dep>
-    <dep name="nmod">2091</dep>
+    <dep name="nmod">2021</dep>
     <dep name="nsubj">1455</dep>
-    <dep name="nsubj:outer">70</dep>
+    <dep name="nsubj:outer">71</dep>
     <dep name="nummod">60</dep>
-    <dep name="obj">844</dep>
-    <dep name="obl">1597</dep>
-    <dep name="punct">3028</dep>
+    <dep name="obj">840</dep>
+    <dep name="obl">1717</dep>
+    <dep name="punct">3030</dep>
     <dep name="root">1000</dep>
   </deps>
 </treebank>
