@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Japanese-PUDLUW:
-commit 9ccce8ac332ad750958f7523e4fcc90102d050cd
-Merge: b9c40b5 c4a8a02
+commit c99b9ce4807255042aef15bd80d19535aaeaf10c
+Merge: f55b649 8ef13c6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ja_pudluw'
@@ -21,22 +21,27 @@ Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
 Features: 117 out of 22910 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
-Universal relations: 24 out of 37 found in the corpus.
+Universal relations: 25 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ja --max-err=10 UD_Japanese-PUDLUW/ja_pudluw-ud-test.conllu
-[Line 62 Sent n01001013]: [L3 Warning pron-det-without-prontype] The word 'この' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 91 Sent n01002017]: [L3 Warning pron-det-without-prontype] The word 'この' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 144 Sent n01002032]: [L3 Warning pron-det-without-prontype] The word 'あなたがた' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 152 Sent n01002032]: [L3 Warning pron-det-without-prontype] The word '彼' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 189 Sent n01002058]: [L3 Warning pron-det-without-prontype] The word '彼女' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 193 Sent n01002058]: [L3 Warning obl-should-be-nmod] The parent (node [10] 'こと') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 308 Sent n01004009]: [L3 Warning pron-det-without-prontype] The word 'それ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 326 Sent n01004017]: [L3 Warning pron-det-without-prontype] The word '彼ら' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 347 Sent n01005023]: [L3 Warning pron-det-without-prontype] The word 'それ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 452 Sent n01007012]: [L3 Warning obl-should-be-nmod] The parent (node [5] '日常生活') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-...suppressing further errors regarding Warning
-Warnings: 785
+[Line 62 Sent n01001013]: [L3 WARNING pron-det-without-prontype] The word 'この' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 91 Sent n01002017]: [L3 WARNING pron-det-without-prontype] The word 'この' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 144 Sent n01002032]: [L3 WARNING pron-det-without-prontype] The word 'あなたがた' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 152 Sent n01002032]: [L3 WARNING pron-det-without-prontype] The word '彼' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 189 Sent n01002058]: [L3 WARNING pron-det-without-prontype] The word '彼女' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 308 Sent n01004009]: [L3 WARNING pron-det-without-prontype] The word 'それ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 326 Sent n01004017]: [L3 WARNING pron-det-without-prontype] The word '彼ら' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 347 Sent n01005023]: [L3 WARNING pron-det-without-prontype] The word 'それ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 454 Sent n01007012]: [L3 WARNING pron-det-without-prontype] The word '私達' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 462 Sent n01007012]: [L3 WARNING pron-det-without-prontype] The word 'ここ' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 5435 Sent n01075028]: [L3 WARNING fixed-without-extpos] Fixed expression 'よう だっ た' does not have the 'ExtPos' feature
+[Line 6374 Sent n01090004]: [L3 WARNING fixed-without-extpos] Fixed expression 'よう だ' does not have the 'ExtPos' feature
+[Line 10642 Sent w01003056]: [L3 WARNING fixed-without-extpos] Fixed expression 'さらに は' does not have the 'ExtPos' feature
+[Line 10870 Sent w01006027]: [L3 WARNING fixed-without-extpos] Fixed expression 'さらに は' does not have the 'ExtPos' feature
+[Line 13568 Sent w01044010]: [L3 WARNING fixed-without-extpos] Fixed expression 'さらに は' does not have the 'ExtPos' feature
+Warnings: 645
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.12) = 0.0133333333333333
@@ -45,7 +50,7 @@ Validity: 1
 (weight=0.37037037037037) * (score{size}=0.453341696396466) = 0.167904331998691
 (weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
 (weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
-(weight=0.111111111111111) * (score{udeprels}=0.518918918918919) = 0.0576576576576577
-(TOTAL score=0.448975206795056) * (availability=1) * (validity=1) = 0.448975206795056
-STARS = 2
-UD_Japanese-PUDLUW	0.448975206795056	2
+(weight=0.111111111111111) * (score{udeprels}=0.540540540540541) = 0.0600600600600601
+(TOTAL score=0.451377609197458) * (availability=1) * (validity=1) = 0.451377609197458
+STARS = 2.5
+UD_Japanese-PUDLUW	0.451377609197458	2.5
