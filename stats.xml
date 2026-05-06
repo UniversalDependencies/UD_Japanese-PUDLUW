@@ -37,7 +37,7 @@
     <feat name="Polarity" value="Neg" upos="AUX">117</feat><!-- ない, なかっ, ず, ん, なければならない, なく, なければならなかっ, なければならなく -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="25">
+  <deps unique="26">
     <dep name="acl">1090</dep>
     <dep name="advcl">895</dep>
     <dep name="advmod">335</dep>
@@ -47,6 +47,7 @@
     <dep name="cc">145</dep>
     <dep name="ccomp">68</dep>
     <dep name="compound">223</dep>
+    <dep name="conj">117</dep>
     <dep name="cop">109</dep>
     <dep name="csubj">8</dep>
     <dep name="dep">3</dep>
@@ -55,12 +56,12 @@
     <dep name="fixed">6</dep>
     <dep name="iobj">2</dep>
     <dep name="mark">383</dep>
-    <dep name="nmod">2021</dep>
+    <dep name="nmod">2041</dep>
     <dep name="nsubj">1455</dep>
     <dep name="nsubj:outer">71</dep>
     <dep name="nummod">60</dep>
     <dep name="obj">840</dep>
-    <dep name="obl">1717</dep>
+    <dep name="obl">1580</dep>
     <dep name="punct">3030</dep>
     <dep name="root">1000</dep>
   </deps>
